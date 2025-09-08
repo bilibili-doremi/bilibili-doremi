@@ -1,0 +1,408 @@
+{
+  "BV1YJqfYRE9L": [
+    { "time": "00:00", "tonic": "D", "mode": "major" }
+  ],
+  "BV1iz4y1P7vM": [
+    { "time": "00:00", "tonic": "F#", "mode": "major" },
+    { "time": "00:10", "tonic": "A#", "mode": "major" },
+    { "time": "00:23", "tonic": "F#", "mode": "major" },
+    { "time": "00:43", "tonic": "D#", "mode": "minor" },
+    { "time": "01:24", "tonic": "A#", "mode": "minor" },
+    { "time": "01:39", "tonic": "A#", "mode": "major" },
+    { "time": "01:54", "tonic": "D", "mode": "minor" },
+    { "time": "02:16", "tonic": "F", "mode": "minor" },
+    { "time": "02:37", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1BT4y1K7sB": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" },
+    { "time": "00:48", "tonic": "F#", "mode": "major" }
+  ],
+  "BV11G411Q7ud": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" },
+    { "time": "01:26", "tonic": "G", "mode": "major" }
+  ],
+  "BV1Dr4y1K7rU": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" },
+    { "time": "02:41", "tonic": "A", "mode": "major" }
+  ],
+  "BV1Q6421u7Zf": [
+    { "time": "00:00", "tonic": "B", "mode": "major" },
+    { "time": "00:49", "tonic": "G#", "mode": "major" },
+    { "time": "01:12", "tonic": "B", "mode": "major" },
+    { "time": "01:54", "tonic": "G#", "mode": "major" }
+  ],
+  "BV1uf4y1t7M7": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "02:58", "tonic": "E", "mode": "major" }
+  ],
+  "BV1cz4y1M7pp": [
+    { "time": "00:00", "tonic": "C#", "mode": "minor" },
+    { "time": "01:20", "tonic": "A", "mode": "major" }
+  ],
+  "BV1Vg4y157v1": [
+    { "time": "00:00", "tonic": "B", "mode": "minor" }
+  ],
+  "BV1zj411K7ju": [
+    { "time": "00:00", "tonic": "G", "mode": "major" }
+  ],
+  "BV19e4y1P7XH": [
+    { "time": "00:00", "tonic": "A", "mode": "major" }
+  ],
+  "BV1g8411h7nV": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" },
+    { "time": "00:18", "tonic": "F", "mode": "major" },
+    { "time": "01:22", "tonic": "D", "mode": "major" },
+    { "time": "01:45", "tonic": "F", "mode": "major" }
+  ],
+  "BV1Pu4y1b7Hd": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" }
+  ],
+  "BV1zi421k7U9": [
+    { "time": "00:00", "tonic": "E", "mode": "major" }
+  ],
+  "BV1YK411c785": [
+    { "time": "00:00", "tonic": "F#", "mode": "lydian" },
+    { "time": "01:21", "tonic": "E", "mode": "major" },
+    { "time": "01:26", "tonic": "D", "mode": "lydian" },
+    { "time": "01:41", "tonic": "D", "mode": "major" },
+    { "time": "02:10", "tonic": "D", "mode": "lydian" },
+    { "time": "02:16", "tonic": "D", "mode": "major" },
+    { "time": "02:24", "tonic": "D", "mode": "lydian" },
+    { "time": "02:30", "tonic": "D", "mode": "major" }
+  ],
+  "BV1yV411n7Ke": [
+    { "time": "00:00", "tonic": "D", "mode": "major" }
+  ],
+  "BV1aN4y1c7Lh": [
+    { "time": "00:00", "tonic": "E", "mode": "major" }
+  ],
+  "BV1cU4y177Um": [
+    { "time": "00:00", "tonic": "D", "mode": "minor" },
+    { "time": "00:30", "tonic": "G", "mode": "minor" },
+    { "time": "01:09", "tonic": "C", "mode": "minor" }
+  ],
+  "BV1UG41177oL": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV173411Y7nk": [
+    { "time": "00:00", "tonic": "G", "mode": "major" },
+    { "time": "00:16", "tonic": "F", "mode": "major" }
+  ],
+  "BV12H4y1U7WS": [
+    { "time": "00:00", "tonic": "D#", "mode": "minor" }
+  ],
+  "BV1uV411H7E8": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" },
+    { "time": "01:08", "tonic": "B", "mode": "major" },
+    { "time": "02:09", "tonic": "D", "mode": "major" },
+    { "time": "03:29", "tonic": "F", "mode": "major" }
+  ],
+  "BV1He411A7UR": [
+    { "time": "00:00", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1M54y1M7pP": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" }
+  ],
+  "BV1LY4y1c7XH": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" }
+  ],
+  "BV1t14y1k7V2": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" }
+  ],
+  "BV1ze4y1u7yj": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" }
+  ],
+  "BV1p64y1s7Jf": [
+    { "time": "00:00", "tonic": "C", "mode": "minor" }
+  ],
+  "BV1HK4y1Z7m7": [
+    { "time": "00:00", "tonic": "F", "mode": "major" }
+  ],
+  "BV1qS4y1Z7UM": [
+    { "time": "00:00", "tonic": "G", "mode": "major" }
+  ],
+  "BV1Gd4y1A7Az": [
+    { "time": "00:00", "tonic": "F", "mode": "major" },
+    { "time": "01:25", "tonic": "A", "mode": "major" }
+  ],
+  "BV1TV4y1f7So": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV1Mv4y1C73x": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "00:00", "tonic": "#D", "mode": "major" }
+  ],
+  "BV1454y167Dm": [
+    { "time": "00:00", "tonic": "G", "mode": "major" }
+  ],
+  "BV1Sp4y1H7R5": [
+    { "time": "00:00", "tonic": "C", "mode": "major" },
+    { "time": "01:04", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1W14y1K7rW": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV16f4y1v7Z5": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "00:43", "tonic": "F", "mode": "major" },
+    { "time": "00:43", "tonic": "C#", "mode": "minor" }
+  ],
+  "BV1uD4y1B7F9": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "01:00", "tonic": "F", "mode": "major" },
+    { "time": "01:17", "tonic": "A#", "mode": "major" },
+    { "time": "02:37", "tonic": "G#", "mode": "major" },
+    { "time": "03:24", "tonic": "D#", "mode": "major" },
+    { "time": "03:24", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1cV4y1e7er": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" },
+    { "time": "00:00", "tonic": "A#", "mode": "major" },
+    { "time": "00:00", "tonic": "A", "mode": "major" }
+  ],
+  "BV18g411N7AS": [
+    { "time": "00:00", "tonic": "A", "mode": "minor" },
+    { "time": "00:38", "tonic": "G", "mode": "minor" },
+    { "time": "01:19", "tonic": "A", "mode": "minor" },
+    { "time": "01:56", "tonic": "G", "mode": "minor" }
+  ],
+  "BV1T64y1x7Eq": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV1xQ4y1R7h2": [
+    { "time": "00:00", "tonic": "C", "mode": "major" },
+    { "time": "01:41", "tonic": "A", "mode": "major" }
+  ],
+  "BV1Qh411M7U6": [
+    { "time": "00:00", "tonic": "A", "mode": "major" }
+  ],
+  "BV1A64y1t7Fu": [
+    { "time": "00:00", "tonic": "B", "mode": "minor" }
+  ],
+  "BV1apHAe3EKR": [
+    { "time": "00:00", "tonic": "C", "mode": "minor" },
+    { "time": "00:29", "tonic": "F", "mode": "minor" },
+    { "time": "00:53", "tonic": "A#", "mode": "minor" },
+    { "time": "01:29", "tonic": "F#", "mode": "major" },
+    { "time": "02:20", "tonic": "F#", "mode": "minor" },
+    { "time": "04:10", "tonic": "B", "mode": "minor" },
+    { "time": "04:16", "tonic": "E", "mode": "minor" }
+  ],
+  "BV1Pu411o743": [
+    { "time": "00:00", "tonic": "E", "mode": "minor" }
+  ],
+  "BV1y24y1a73h": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV13e411P7vm": [
+    { "time": "00:00", "tonic": "F", "mode": "major" }
+  ],
+  "BV1zY4y1d7Wd": [
+    { "time": "00:00", "tonic": "F", "mode": "minor" },
+    { "time": "00:50", "tonic": "C#", "mode": "major" },
+    { "time": "01:15", "tonic": "A#", "mode": "minor" }
+  ],
+  "BV11p4y1H7Xk": [
+    { "time": "00:00", "tonic": "B", "mode": "major" }
+  ],
+  "BV1go4y1t729": [
+    { "time": "00:00", "tonic": "E", "mode": "dorian" }
+  ],
+  "BV1mq4y1V7rj": [
+    { "time": "00:00", "tonic": "F", "mode": "minor" }
+  ],
+  "BV1Yf4y157g5": [
+    { "time": "00:00", "tonic": "G", "mode": "minor" },
+    { "time": "00:10", "tonic": "G", "mode": "dorian" },
+    { "time": "00:00", "tonic": "A", "mode": "minor" },
+    { "time": "01:29", "tonic": "A", "mode": "dorian" },
+    { "time": "01:36", "tonic": "A", "mode": "minor" }
+  ],
+  "BV1my4y157VB": [
+    { "time": "00:00", "tonic": "D", "mode": "minor" }
+  ],
+  "BV1nY4y1p7Pk": [
+    { "time": "00:00", "tonic": "D", "mode": "minor" },
+    { "time": "01:38", "tonic": "A", "mode": "minor" }
+  ],
+  "BV17B4y1h7P7": [
+    { "time": "00:00", "tonic": "A", "mode": "minor" }
+  ],
+  "BV1ZP4y1k756": [
+    { "time": "00:00", "tonic": "G", "mode": "major" }
+  ],
+  "BV1u84y1P7hQ": [
+    { "time": "00:00", "tonic": "B", "mode": "major" }
+  ],
+  "BV1oT4y1N7pE": [
+    { "time": "00:00", "tonic": "D", "mode": "major" }
+  ],
+  "BV1TL411F7TU": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV19d4y1M7tY": [
+    { "time": "00:00", "tonic": "G", "mode": "minor" }
+  ],
+  "BV1pB4y137pv": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" },
+    { "time": "00:35", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1ny4y1b7La": [
+    { "time": "00:00", "tonic": "C", "mode": "major" },
+    { "time": "00:57", "tonic": "C", "mode": "lydian" }
+  ],
+  "BV1Gb4y1a7R3": [
+    { "time": "00:00", "tonic": "E", "mode": "major" }
+  ],
+  "bv1mz4y1d7cc": [
+    { "time": "00:00", "tonic": "C#", "mode": "minor" }
+  ],
+  "BV1rg4y1P74z": [
+    { "time": "00:00", "tonic": "C#", "mode": "major" },
+    { "time": "00:48", "tonic": "A", "mode": "major" },
+    { "time": "00:54", "tonic": "G", "mode": "major" },
+    { "time": "01:38", "tonic": "A", "mode": "major" }
+  ],
+  "BV1kd4y1W7hJ": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "00:41", "tonic": "F", "mode": "major" }
+  ],
+  "BV1Xf4y1Z7Um": [
+    { "time": "00:00", "tonic": "F#", "mode": "minor" }
+  ],
+  "BV1Gh411Y7mR": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" }
+  ],
+  "BV1x2421A7zF": [
+    { "time": "00:00", "tonic": "G#", "mode": "major" }
+  ],
+  "BV1dj411s7hH": [
+    { "time": "00:00", "tonic": "F", "mode": "major" },
+    { "time": "00:31", "tonic": "G", "mode": "major" },
+    { "time": "01:16", "tonic": "D#", "mode": "minor" },
+    { "time": "01:50", "tonic": "F", "mode": "minor" }
+  ],
+  "BV1fL411J77q": [
+    { "time": "00:00", "tonic": "E", "mode": "minor" }
+  ],
+  "BV15W4y1t7BN": [
+    { "time": "00:00", "tonic": "E", "mode": "major" }
+  ],
+  "BV14L4y1a7kp": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "01:07", "tonic": "G", "mode": "major" }
+  ],
+  "BV1MZ4y1D7Cc": [
+    { "time": "00:00", "tonic": "E", "mode": "major" }
+  ],
+  "BV1Ew411U7wq": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV1wu411K7Mx": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" }
+  ],
+  "BV1a64y197Kq": [
+    { "time": "00:00", "tonic": "G", "mode": "major" },
+    { "time": "00:51", "tonic": "C", "mode": "major" }
+  ],
+  "BV17E421N7FA": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" },
+    { "time": "01:44", "tonic": "E", "mode": "major" }
+  ],
+  "BV1Ue4y1R7hA": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" }
+  ],
+  "BV1eN411R75h": [
+    { "time": "00:00", "tonic": "C", "mode": "major" },
+    { "time": "00:00", "tonic": "G", "mode": "major" },
+    { "time": "01:12", "tonic": "A", "mode": "dorian" }
+  ],
+  "BV19T4y1M7Kx": [
+    { "time": "00:00", "tonic": "D", "mode": "major" },
+    { "time": "01:01", "tonic": "G", "mode": "major" }
+  ],
+  "BV1k64y1y7BX": [
+    { "time": "00:00", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1eF411q737": [
+    { "time": "00:00", "tonic": "E", "mode": "minor" }
+  ],
+  "BV1CW4y187j3": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" },
+    { "time": "01:00", "tonic": "F#", "mode": "minor" }
+  ],
+  "BV1H14y1n7Jr": [
+    { "time": "00:00", "tonic": "D", "mode": "major" }
+  ],
+  "BV1FourzZEqe": [
+    { "time": "00:00", "tonic": "F#", "mode": "major" }
+  ],
+  "BV1wM3hzBEyg": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" }
+  ],
+  "BV1zP4y1E7bf": [
+    { "time": "00:00", "tonic": "A", "mode": "minor" },
+    { "time": "01:51", "tonic": "A#", "mode": "minor" }
+  ],
+  "BV1vU4y187yn": [
+    { "time": "00:00", "tonic": "A", "mode": "major" }
+  ],
+  "BV1dz421a7As": [
+    { "time": "00:00", "tonic": "D#", "mode": "major" }
+  ],
+  "BV1Ht421P7nY": [
+    { "time": "00:00", "tonic": "C", "mode": "major" },
+    { "time": "01:50", "tonic": "C#", "mode": "major" }
+  ],
+  "BV1mC411h7hQ": [
+    { "time": "00:00", "tonic": "G", "mode": "minor" }
+  ],
+  "BV1mK421b7ko": [
+    { "time": "00:00", "tonic": "A#", "mode": "major" }
+  ],
+  "BV1fv421k7oM": [
+    { "time": "00:00", "tonic": "D", "mode": "major" }
+  ],
+  "BV1km411Q7Zu": [
+    { "time": "00:00", "tonic": "F", "mode": "minor" },
+    { "time": "01:20", "tonic": "F#", "mode": "minor" }
+  ],
+  "BV1vB4216742": [
+    { "time": "00:00", "tonic": "G", "mode": "major" }
+  ],
+  "BV1rC4y1Q7jD": [
+    { "time": "00:00", "tonic": "A", "mode": "minor" }
+  ],
+  "BV1LH4y117ZD": [
+    { "time": "00:00", "tonic": "B", "mode": "major" }
+  ],
+  "BV14a4y1f7Jd": [
+    { "time": "00:00", "tonic": "A#", "mode": "minor" }
+  ],
+  "BV1HN4y1m7ha": [
+    { "time": "00:00", "tonic": "D", "mode": "major" }
+  ],
+  "BV1YJqfYRER6": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV1y3411C79v": [
+    { "time": "00:00", "tonic": "F", "mode": "major" }
+  ],
+  "BV1PF411179X": [
+    { "time": "00:00", "tonic": "C", "mode": "major" }
+  ],
+  "BV1Es4y167UG": [
+    { "time": "00:00", "tonic": "F", "mode": "major" }
+  ],
+  "BV1fL4y1a7VW": [
+    { "time": "00:00", "tonic": "A#", "mode": "minor" }
+  ],
+  "BV1sLthzDEZv": [
+    { "time": "00:00", "tonic": "B", "mode": "major" }
+  ],
+  "BV13htpzBEdt": [
+    { "time": "00:00", "tonic": "C", "mode": "major" },
+    { "time": "01:24", "tonic": "G", "mode": "major" },
+    { "time": "01:49", "tonic": "B", "mode": "major" }
+  ]
+}

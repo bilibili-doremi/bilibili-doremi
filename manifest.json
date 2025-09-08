@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili Doremi",
+  "version": "1.0",
+  "description": "Displays musical scale information on Bilibili videos.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.bilibili.com/video/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["scales.json"],
+      "matches": ["*://*.bilibili.com/*"]
+    }
+  ]
+}

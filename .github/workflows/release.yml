@@ -1,0 +1,24 @@
+name: Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Package extension
+        run: |
+          zip -r bilibili-doremi-${GITHUB_REF#refs/tags/}.zip manifest.json content.js scales.json README.md
+
+      - name: Create Release and Upload Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: bilibili-doremi-${GITHUB_REF#refs/tags/}.zip
