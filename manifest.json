@@ -7,7 +7,7 @@
     "storage"
   ],
   "host_permissions": [
-    "<all_urls>"
+    "https://raw.githubusercontent.com/*"
   ],
   "options_ui": {
     "page": "settings.html",

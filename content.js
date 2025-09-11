@@ -182,9 +182,9 @@ async function fetchScaleMap() {
         chrome.storage.sync.get({ customJsonUrl: '' }, resolve);
     });
 
-    const customUrl = items.customJsonUrl;
 
-    if (customUrl) {
+    if (items && items.customJsonUrl) {
+        const customUrl = items.customJsonUrl;
         try {
             console.log(`Bilibili-Doremi: Loading custom scale map from ${customUrl}`);
             const response = await fetch(customUrl);
@@ -200,6 +200,7 @@ async function fetchScaleMap() {
 
     // Default path
     const defaultUrl = chrome.runtime.getURL('scales.json');
+    console.info(`Loading from ${defaultUrl}`);
     const response = await fetch(defaultUrl);
     return await response.json();
 }
