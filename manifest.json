@@ -14,5 +14,10 @@
       "matches": ["*://*.bilibili.com/video/*", "*://*.bilibili.com/list/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "doremi@bilibili.com"
+    }
+  }
 }
