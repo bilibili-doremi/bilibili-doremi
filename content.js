@@ -134,11 +134,11 @@ function addScaleOverlayToVideo(videoElement, tonic, mode) {
     function resizeAndRender() {
         canvas.width = videoElement.clientWidth;
         // canvas 高度 = video 高度的 1/4
-        canvas.height = videoElement.clientHeight * 0.25; 
-    
+        canvas.height = videoElement.clientHeight * 0.25;
+
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         // 传入 canvas 高度
-        renderNotes(ctx, canvas.width, canvas.height, tonic, mode); 
+        renderNotes(ctx, canvas.width, canvas.height, tonic, mode);
     }
 
     // Watch for video resizing
@@ -153,7 +153,9 @@ function addScaleOverlayToVideo(videoElement, tonic, mode) {
 
 function getBVIdFromUrl(url) {
   const match = url.match(/(BV[0-9A-Za-z]+)/);
-  return match ? match[1] : null;
+  if (match) {
+    return match[1];
+  }
 }
 
 
@@ -200,7 +202,7 @@ async function fetchScaleMap() {
 
     // Default path
     const defaultUrl = chrome.runtime.getURL('scales.json');
-    console.info(`Loading from ${defaultUrl}`);
+    console.info(`Bilibili-Doremi: Loading from ${defaultUrl}`);
     const response = await fetch(defaultUrl);
     return await response.json();
 }
@@ -213,6 +215,7 @@ async function setup() {
 
   function checkAndUpdateScale() {
     const BV_ID = getBVIdFromUrl(location.href);
+    console.log(`BV ID: ${BV_ID}`);
     if (!BV_ID) return;
 
     const scaleChanges = SCALE_MAP[BV_ID];
