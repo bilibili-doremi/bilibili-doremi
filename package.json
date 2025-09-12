@@ -1,0 +1,30 @@
+{
+  "name": "bilibili-doremi",
+  "version": "1.0.0",
+  "description": "这是一个浏览器扩展，专为B站UP主 **FA将军** ([主页](https://space.bilibili.com/651110133)) 的钢琴教学视频而设计。",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilibili-doremi/bilibili-doremi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/bilibili-doremi/bilibili-doremi/issues"
+  },
+  "homepage": "https://github.com/bilibili-doremi/bilibili-doremi#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2"
+  }
+}
