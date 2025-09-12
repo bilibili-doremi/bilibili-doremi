@@ -180,31 +180,40 @@ function getScaleForTime(scaleList, currentTime) {
 }
 
 async function fetchScaleMap() {
-    const items = await new Promise(resolve => {
-        chrome.storage.sync.get({ customJsonUrl: '' }, resolve);
-    });
+    // 1. Try custom URL from settings
+    let customUrl = '';
+    try {
+        const items = await chrome.storage.sync.get({ customJsonUrl: '' });
+        if (items) {
+            customUrl = items.customJsonUrl;
+        }
+    } catch (e) {
+        console.error("Bilibili-Doremi: Could not access storage. Custom URL will not be used.", e);
+    }
 
-
-    if (items && items.customJsonUrl) {
-        const customUrl = items.customJsonUrl;
+    if (customUrl) {
         try {
             console.log(`Bilibili-Doremi: Loading custom scale map from ${customUrl}`);
             const response = await fetch(customUrl);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             return await response.json();
         } catch (e) {
-            console.error(`Bilibili-Doremi: Failed to load custom scale map from ${customUrl}. Falling back to default.`, e);
-            // Fallback to default below
+            console.error(`Bilibili-Doremi: Failed to load custom scale map from ${customUrl}. Will try default.`, e);
         }
     }
 
-    // Default path
-    const defaultUrl = chrome.runtime.getURL('scales.json');
-    console.info(`Bilibili-Doremi: Loading from ${defaultUrl}`);
-    const response = await fetch(defaultUrl);
-    return await response.json();
+    // 2. Try the default GitHub URL
+    const defaultGitHubUrl = 'https://raw.githubusercontent.com/bilibili-doremi/bilibili-doremi-data/main/scales.json';
+    try {
+        console.log(`Bilibili-Doremi: Loading default scale map from ${defaultGitHubUrl}`);
+        const response = await fetch(defaultGitHubUrl);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        return await response.json();
+    } catch (e) {
+        console.error(`Bilibili-Doremi: Failed to load any scale map. The extension may not work.`, e);
+    }
+
+    return {}; // Return an empty map if all sources fail
 }
 
 async function setup() {

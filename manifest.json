@@ -18,11 +18,5 @@
       "matches": ["*://*.bilibili.com/video/*", "*://*.bilibili.com/list/*"],
       "js": ["content.js"]
     }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": ["scales.json"],
-      "matches": ["*://*.bilibili.com/*"]
-    }
   ]
 }
