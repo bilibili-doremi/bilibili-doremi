@@ -9,6 +9,15 @@
     "page": "settings.html",
     "open_in_tab": true
   },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Bilibili Doremi 设置"
+  },
+  "icons": {
+    "48": "icon.svg"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.bilibili.com/video/*", "*://*.bilibili.com/list/*"],
