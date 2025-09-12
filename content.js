@@ -198,7 +198,21 @@ function getScaleForTime(scaleList, currentTime) {
 }
 
 async function fetchScaleMap() {
-  // 1. Try custom URL from settings
+  // 1. Try custom JSON content from local storage
+  try {
+    const items = await chrome.storage.local.get({ customJsonContent: null });
+    if (items && items.customJsonContent) {
+      console.log('Bilibili-Doremi: Loading custom scale map from local storage.');
+      return JSON.parse(items.customJsonContent);
+    }
+  } catch (e) {
+    console.error(
+      'Bilibili-Doremi: Could not access local storage or parse local content. Will try custom URL.',
+      e,
+    );
+  }
+
+  // 2. Try custom URL from sync storage
   let customUrl = '';
   try {
     const items = await chrome.storage.sync.get({ customJsonUrl: '' });
@@ -207,7 +221,7 @@ async function fetchScaleMap() {
     }
   } catch (e) {
     console.error(
-      'Bilibili-Doremi: Could not access storage. Custom URL will not be used.',
+      'Bilibili-Doremi: Could not access sync storage. Custom URL will not be used.',
       e,
     );
   }
@@ -229,7 +243,7 @@ async function fetchScaleMap() {
     }
   }
 
-  // 2. Try the default GitHub URL
+  // 3. Try the default GitHub URL
   const defaultGitHubUrl =
     'https://raw.githubusercontent.com/bilibili-doremi/bilibili-doremi-data/main/scales.json';
   try {

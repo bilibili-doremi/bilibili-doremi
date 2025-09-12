@@ -1,27 +1,32 @@
 <!doctype html>
 <html>
   <head>
-    <title>Bilibili Doremi Settings</title>
+    <meta charset="UTF-8">
+    <title>Bilibili Doremi 设置</title>
     <link rel="stylesheet" href="settings.css" />
   </head>
   <body>
-    <h1>Bilibili Doremi Settings</h1>
+    <h1>Bilibili Doremi 设置</h1>
     <div class="setting">
-      <label for="json-url">Custom JSON Data URL:</label>
+      <label for="json-url">自定义 JSON 数据 URL:</label>
       <input
         type="text"
         id="json-url"
-        placeholder="Enter URL or local file path"
+        placeholder="输入 URL 或本地文件路径"
       />
       <p class="description">
-        Override the default scale data. Can be an HTTP(S) URL or a local file
-        path (e.g., file:///path/to/your/scales.json).
+        覆盖默认的音阶数据。可以是 HTTP(S) URL 或本地文件路径 (例如
+        file:///path/to/your/scales.json)。
         <br />
-        If using a local file, you must grant this extension access to file URLs
-        in your browser's extension settings.
+        如果使用本地文件，您必须在浏览器的扩展设置中授予此扩展对文件 URL
+        的访问权限。
       </p>
     </div>
-    <button id="save-button">Save</button>
+    <div class="setting">
+      <label for="json-file-picker">或选择一个本地 JSON 文件:</label>
+      <input type="file" id="json-file-picker" accept=".json" />
+    </div>
+    <button id="save-button">保存</button>
     <div id="status-message"></div>
     <script src="settings.js"></script>
   </body>
