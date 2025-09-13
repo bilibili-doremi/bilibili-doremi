@@ -12,14 +12,18 @@
     "page": "settings.html",
     "open_in_tab": true
   },
-  "background": {
-    "scripts": ["background.js"]
-  },
   "action": {
-    "default_title": "Bilibili Doremi 设置"
+    "default_title": "Bilibili Doremi 设置",
+    "default_popup": "settings.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    }
   },
   "icons": {
-    "48": "icon.svg"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
   "content_scripts": [
     {

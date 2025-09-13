@@ -63,3 +63,18 @@
     - 在修改完代码（例如，向 `scales.json` 添加了新的视频数据）后，回到浏览器的扩展管理页面。
     - 找到 “Bilibili-Doremi” 扩展，点击 **刷新** 或 **重新加载** 按钮。
     - 然后刷新对应的Bilibili视频页面，你的修改就会生效。
+
+## Icon Development
+
+The PNG icons used in the extension (`icon16.png`, `icon48.png`, `icon128.png`) are generated from the `icon.svg` file.
+If you need to update the icon, you should modify the `icon.svg` file and then regenerate the PNG files.
+
+To regenerate the PNG files, you need to have [Inkscape](https://inkscape.org/) installed and available in your command line.
+
+Run the following commands from the root of the project to generate the icons:
+
+```bash
+inkscape --export-type="png" --export-width=16 --export-height=16 --export-filename="icon16.png" "icon.svg"
+inkscape --export-type="png" --export-width=48 --export-height=48 --export-filename="icon48.png" "icon.svg"
+inkscape --export-type="png" --export-width=128 --export-height=128 --export-filename="icon128.png" "icon.svg"
+```
