@@ -64,6 +64,24 @@
     - 找到 “Bilibili-Doremi” 扩展，点击 **刷新** 或 **重新加载** 按钮。
     - 然后刷新对应的Bilibili视频页面，你的修改就会生效。
 
+## 如何打包
+
+本扩展使用 `web-ext` 工具进行打包。
+
+1.  **安装依赖**
+
+    ```bash
+    npm install
+    ```
+
+2.  **打包扩展**
+
+    ```bash
+    npm run package
+    ```
+
+    打包后的 `zip` 文件会生成在 `web-ext-artifacts` 目录下。
+
 ## Icon Development
 
 The PNG icons used in the extension (`icon16.png`, `icon48.png`, `icon128.png`) are generated from the `icon.svg` file.
